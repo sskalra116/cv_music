@@ -1,4 +1,4 @@
-###The YOLO music application is a real-time music production program through which users would be able to explore music and make compositions just by the use of hand gestures. My idea was to connect this to AI technology and use gesture based interface to go beyond the tile based interface so that users can find this application more interesting.
+#### The YOLO music application is a real-time music production program through which users would be able to explore music and make compositions just by the use of hand gestures. My idea was to connect this to AI technology and use gesture based interface to go beyond the tile based interface so that users can find this application more interesting.
 
 Software implementation or program
 -----------
