@@ -26,3 +26,15 @@ Since the dataset for each gesture was small(400 images), I used a higher epoch 
 
 
 Due to GitHub's size limit, the checkpoint weights and the original weights that were above 100 MB couldn't be uploaded.
+
+Once the training was done, it was time to code the melodies in Sonic Pi.
+
+Sonic Pi implementation
+-------------
+Essentially, every gesture label is binded to a music function which is executed in Sonic pi. These functions were coded using python-sonic(psonic) library. Once the Sonic pi function is called, it runs on the Sonic Pi environment on the local machine in the background.
+
+
+Initially, the whole program was running as a single thread. This made the object detection model lag when the music functions were called.
+Solution: Used multithreading to make all the functions run simultaneously once they were called.
+
+Ex. Opencv video capture - drum track - guitar melody
