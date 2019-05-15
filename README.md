@@ -23,3 +23,6 @@ Since the dataset for each gesture was small(400 images), I used a higher epoch 
 <img src="images/rock.PNG">
 <img src="images/peace.PNG">
 <img src="images/LL.PNG">
+
+
+Due to GitHub's size limit, the checkpoint weights and the original weights that were above 100 MB couldn't be uploaded.
