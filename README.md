@@ -19,4 +19,7 @@ python flow --model cfg/yolov2-tiny-voc-1c.cfg --load bin/yolov2-tiny-voc.weight
 Since the dataset for each gesture was small(400 images), I used a higher epoch value of 1000.
 
 
-<img src="images/peace.png">
+<img src="images/thumbs_up.PNG">
+<img src="images/rock.PNG">
+<img src="images/peace.PNG">
+<img src="images/LL.PNG">
