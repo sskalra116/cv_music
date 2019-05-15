@@ -1,4 +1,4 @@
-#### The YOLO music application is a real-time music production program through which users would be able to explore music and make compositions just by the use of hand gestures. My idea was to connect this to AI technology and use gesture based interface to go beyond the tile based interface so that users can find this application more interesting.
+### The YOLO music application is a real-time music production program through which users would be able to explore music and make compositions just by the use of hand gestures. My idea was to connect this to AI technology and use gesture based interface to go beyond the tile based interface so that users can find this application more interesting.
 
 Software implementation or program
 -----------
@@ -18,3 +18,7 @@ python flow --model cfg/yolov2-tiny-voc-1c.cfg --load bin/yolov2-tiny-voc.weight
 
 Since the dataset for each gesture was small(400 images), I used a higher epoch value of 1000.
 
+
+![](images/peace.png)
+![](images/rock.png)
+![](images/thumbs_up.png)
